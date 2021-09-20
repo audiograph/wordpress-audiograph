@@ -19,8 +19,8 @@ services:
     volumes:
       - wordpress:/var/www/html
       - type: bind
-        source: "$HOST/plugins"
-        target: /var/www/html/wp-content/plugins/
+        source: "$PWD"
+        target: /var/www/html/wp-content/plugins/audiograph
 
   db:
     image: mysql:5.7
