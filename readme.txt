@@ -2,6 +2,7 @@
 Contributors: qstear
 Tags: podcasts, podcast clips, podcast player
 Requires at least: 5.0
+Stable tag: trunk
 Tested up to: 5.8
 Requires PHP: 5.6.0
 License: GPLv3
